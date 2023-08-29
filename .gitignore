@@ -1,3 +1,5 @@
 #in our .gitignore file 
 .env
 __pycache__
+files
+Q_n_A_app/uploads
