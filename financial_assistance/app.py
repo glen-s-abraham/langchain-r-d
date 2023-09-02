@@ -12,7 +12,7 @@ from custom_prompts import finance_prompts
 from langchain.chat_models import ChatOpenAI
 load_dotenv(find_dotenv(), override=True)
 
-chat_gpt = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.5, max_tokens=1024)
+chat_gpt = ChatOpenAI(model='gpt-4', temperature=0.5, max_tokens=1024)
 
 st.title('Financial Assistant')
 
